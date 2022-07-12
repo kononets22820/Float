@@ -1,0 +1,53 @@
+.page-wrap {
+    background-color: white;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container {
+    max-width: 1030px;
+    margin: 10px 10px 10px 10px;
+    box-sizing: content-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.card {
+    max-width: 1010px;
+    box-shadow: inset -3px 0px 7px -2px, -40px 10px 20px 0px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+img {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.many {
+    width: 50px;
+    height: 50px;
+    object-position: top;
+    margin: 0 auto;
+    align-items: center;
+    float: right;
+}
+
+.img1 {
+    float: left;
+}
+
+.img2 {
+    float: right;
+}
